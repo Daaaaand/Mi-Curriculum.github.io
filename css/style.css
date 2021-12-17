@@ -33,6 +33,9 @@ body {
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
+body img {
+    max-width: 100%;
+}
 
 .contenedor {
     max-width: 120rem;
@@ -95,22 +98,15 @@ h1,h2,h3 {
     font-size: 2rem;
 }
 
-/* Iconos */
-.iconos2 {
-    margin-bottom: 3rem;
-}
 
-.iconos3 {
-    margin-top: 3rem;
-    margin-left: 10rem;
-}
+
+
 
 @media (min-width: 800px) {
     .iconos2{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 5rem;
-   
     }
 }
 
@@ -319,3 +315,40 @@ h1,h2,h3 {
 .footer {
     text-align: center;
 }
+/** Contactanos Grid**/
+
+.icono1, .icono2, .icono3 {
+    width: 5rem;
+    margin: auto;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.icono1 {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.icono1:hover {
+    box-shadow: 5px 6px 6px 2px #070317;
+    transform: scale(1.1);
+}
+
+.icono2 {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.icono2:hover {
+    box-shadow: 5px 6px 6px 2px #070317;
+    transform: scale(1.1);
+}
+
+.icono3 {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.icono3:hover {
+    box-shadow: 5px 6px 6px 2px #070317;
+    transform: scale(1.1);
+}
+
+
